@@ -54,24 +54,25 @@ def start_game():
     print("Игра началась!")
     print("Integer Studio")
     print("          _____    1 person    ")
-    print("        /       \       ")
+    print("        /       \\       ")
     print("       |  O   O  |      ")
     print("       |    ^    |      ")
-    print("        \ \___/ /      ")
-    print("        \_______/      ")
+    print("        \\ \\___/ /      ")
+    print("       \\________/      ")
     print("            |             ")
     print("          _____   2 person       ")
-    print("        /_______\       ")
+    print("        /_______\\       ")
     print("       |  O   O  |      ")
     print("       |    ^    |      ")
-    print("        \  ___  /      ")
-    print("        \_______/      ")
+    print("       \\   ___   /      ")
+    print("       \\_________/      ")
     print("1 person: This is a modern person who is interested in cyber security.")
     print("2 person: This is a caveman who works as a blacksmith.")
     Enter = input("Press 'enter' ")
     chapte_one()
 
 def mini_1():
+    print(HP_PC)
     print("""
                   __________________________
                  /                         \\
@@ -82,11 +83,13 @@ def mini_1():
                ||           ______          ||
                ||___________________________||
                |_____________________________|
-                             []    
-                            /  \\   
-                           /____\\  
+                            [  ]    
+                           /    \\   
+                          /______\\  
             """)
-
+    print(HP_1PERS)
+HP_PC = 'PC- 100'
+HP_1PERS = '1PERS- 100'
 def show_instructions():
     print("Instructions:\n...")
 
